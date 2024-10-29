@@ -1,0 +1,17 @@
+[project]
+name = "example-project"
+version = "1.0.0"
+
+[files.readme]
+path = "generated/README.md"
+content = """
+# Example Project
+This is an auto-generated README file.
+"""
+
+[files.config]
+path = "generated/config.json"
+
+[files.config.content]
+api = "https://api.example.com"
+timeout = 5000
